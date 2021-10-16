@@ -10,7 +10,7 @@ https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools
 https://wiki.qemu.org/Documentation/Networking#How_to_get_SSH_access_to_a_guest
 
 ```
-<domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/`domain/qemu/1.0'>
+<domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
 ...
   <qemu:commandline>
     <qemu:arg value='-device'/>
