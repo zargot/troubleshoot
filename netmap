@@ -1,0 +1,1 @@
+- Opening a host-only port with nmport_open and "netmap:%s^" before any other open-call causes a crash.
