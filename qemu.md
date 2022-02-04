@@ -27,3 +27,8 @@ https://wiki.qemu.org/Documentation/Networking#How_to_get_SSH_access_to_a_guest
 Multiple `hostfwd` can be added with a comma between.
 
 On Windows guests, make sure the new network adapter shows up, or reboot.
+
+## OpenSSH server
+
+https://winscp.net/eng/docs/guide_windows_openssh_server
+https://erwin.co/configuring-openssh-server-sshd-on-windows-11/
