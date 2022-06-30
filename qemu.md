@@ -4,10 +4,6 @@
 
 `virsh edit <vm>`
 
-## Copy/paste between linux-host and windows-guest
-
-https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
-
 ## SSH
 
 Simply look up the NIC IP in virt-manager.
@@ -33,7 +29,13 @@ Multiple `hostfwd` can be added with a comma between.
 
 On Windows guests, make sure the new network adapter shows up, or reboot.
 
-## OpenSSH server
+## Windows guest
+
+### Copy/paste
+
+https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
+
+### OpenSSH server
 
 https://winscp.net/eng/docs/guide_windows_openssh_server
 https://erwin.co/configuring-openssh-server-sshd-on-windows-11/
