@@ -1,15 +1,20 @@
 # QEMU
 
 ## Edit vm conf
+
 `virsh edit <vm>`
 
 ## Copy/paste between linux-host and windows-guest
+
 https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
+
+## SSH
+
+Simply look up the NIC IP in virt-manager.
 
 ## Port forwarding
 
-**For SSH this is unnecessary. Simply look up the NIC IP in virt-manager.**
-
+SSH forwarding example:
 https://wiki.qemu.org/Documentation/Networking#How_to_get_SSH_access_to_a_guest
 
 ```
