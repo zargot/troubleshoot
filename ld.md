@@ -1,6 +1,6 @@
 # ld
 
-rpath (now runpath) is used used by *ld* to find dependencies.
+rpath (now runpath) is used by *ld* to find dependencies.
 
 remember that the library doing the actual ldopen call is the one who needs the
 rpath, so if ldopen is in B and C calls B.loadSomething to get D, then B is the
